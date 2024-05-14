@@ -1,8 +1,13 @@
 import React from 'react'
+import Navbar from '../Navbar/Navbar'
 
 const Music = () => {
   return (
-    <div>Music</div>
+    <div className='w-full h-auto bg-slate-900 text-slate-100'>
+      <div className='max-w-screen-2xl mx-auto px-16'>
+        <Navbar/>
+      </div>
+    </div>
   )
 }
 
