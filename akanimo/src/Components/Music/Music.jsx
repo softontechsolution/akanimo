@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import Banner from '../Banner/Banner'
 import Mymusic from '../Mymusic/Mymusic'
+import Concerts from '../Concerts/Concerts'
 
 const Music = () => {
   return (
@@ -10,6 +11,7 @@ const Music = () => {
         <Navbar/>
         <Banner />
         <Mymusic />
+        <Concerts />
       </div>
     </div>
   )

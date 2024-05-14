@@ -1,6 +1,11 @@
 import React from 'react'
-import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import Title from '../Layout/Title'
+import concertOne from '../../assets/con-1.jpg'
+import concertTwo from '../../assets/con-2.jpg'
+import concertThree from '../../assets/con-3.jpg'
+import concertFour from '../../assets/con-4.jpg'
+import concertFive from '../../assets/con-5.jpg'
+import concertSix from '../../assets/con-6.jpg'
 import ConcertsCard from './ConcertsCard';
 
 const Concerts = () => {
@@ -17,40 +22,40 @@ const Concerts = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ConcertsCard
-          title="SOCIAL MEDIA CLONE"
+          title="ABUJA CAMPUS RAID"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
+          src={concertOne}
         />
         <ConcertsCard
-          title="E-commerce Website"
+          title="LAGOS STREET CARNIVAL"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
+          src={concertTwo}
         />
         <ConcertsCard
-          title="Chatting App"
+          title="INDUSTRY NITE"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
+          src={concertThree}
         />
         <ConcertsCard
-          title="SOCIAL MEDIA CLONE"
+          title="HOMECOMING NITE"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
+          src={concertFour}
         />
         <ConcertsCard
-          title="E-commerce Website"
+          title="CAMPUS INVASION 1.0"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
+          src={concertFive}
         />
         <ConcertsCard
-          title="Chatting App"
+          title="AKANIMO LIVE"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
+          src={concertSix}
         />
       </div>
     </section>
