@@ -12,3 +12,9 @@ body{
     color: white;
     font-family: 'outfit';
 }
+
+@layer components{
+    .bannerIcon{
+        @apply w-16 h-16 bg-black bg-capacity-25 text-gray-200 text-xl inline-flex items-center justify-center rounded-md hover:bg-capacity-40 hover:-translate-y-1 transition-all hover:text-purple-600 cursor-pointer duration-300;
+    }
+}
